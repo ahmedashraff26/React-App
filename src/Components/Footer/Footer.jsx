@@ -15,10 +15,10 @@ export default function Footer() {
                 <div className="links">
                     <h4 className="text-3xl text-center font-bold pb-14">Around the web</h4>
                     <ul className="flex justify-center space-x-4">
-                        <li><a href="#" className="text-white hover:text-gray-800 border-2 p-4 rounded-full hover:bg-white duration-500"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#" className="text-white hover:text-gray-800 border-2 p-4 rounded-full hover:bg-white duration-500"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="#" className="text-white hover:text-gray-800 border-2 p-4 rounded-full hover:bg-white duration-500"><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#" className="text-white hover:text-gray-800 border-2 p-4 rounded-full hover:bg-white duration-500"><i className="fab fa-youtube"></i></a></li>
+                        <li><a href="https://facebook.com" target='_blank' className="text-white hover:text-gray-800 border-2 py-2 px-3 rounded-full hover:bg-white duration-500"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com" target='_blank' className="text-white hover:text-gray-800 border-2 p-2 rounded-full hover:bg-white duration-500"><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="https://linkedin.com" target='_blank' className="text-white hover:text-gray-800 border-2 py-2 px-3 rounded-full hover:bg-white duration-500"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://youtube.com" target='_blank' className="text-white hover:text-gray-800 border-2 p-2 rounded-full hover:bg-white duration-500"><i className="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
         </div>
     </div>
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 pb-5">
         <p className="py-4 text-center text-gray-300">Copyright &copy; Route 2024</p>
     </div>
 </footer>

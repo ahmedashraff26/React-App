@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className="flex items-center justify-center flex-col bg-emerald-400 py-20 px-20">
+        <div className="flex items-center justify-center flex-col bg-emerald-400 min-h-screen px-20">
             <div>
-                <h1 className="text-center font-bold text-white text-6xl">About</h1>
-                <div className="flex gap-3 justify-center py-7">
-                    <div className="bg-white w-[120px] h-[4px] mt-4"></div>
-                    <i className="fa-solid fa-star fa-xlg text-white text-4xl"></i>
-                    <div className="bg-white w-[120px] h-[4px] mt-4"></div>
+                <h1 className="text-center font-bold text-white text-4xl">ABOUT COMPONENT</h1>
+                <div class="flex gap-3 justify-center py-4">
+            <div className="bg-white w-[80px] h-[4px] mt-2"></div>
+                <i class="fa-solid fa-star fa-xlg text-white"></i>
+                <div className="bg-white w-[80px] h-[4px] mt-2"></div>
                 </div>
             </div>
             <div className="lg:w-2/3">

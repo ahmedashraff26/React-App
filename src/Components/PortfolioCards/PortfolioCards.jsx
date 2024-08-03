@@ -37,37 +37,37 @@ export default function PortfolioCards() {
         <div className="grid grid-cols-12 gap-14">
             <div onClick={function () {
               infoAlert(0 , firstImg);
-            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group'>
+            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group w-2/3 md:w-full'>
                 <img className='md:w-full rounded-lg' src={firstImg} alt=""/>
                 <div className="layer text-8xl font-bold absolute top-0 right-0 left-0 bottom-0 bg-emerald-600 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-85 text-white duration-500 cursor-pointer">+</div>
             </div>
             <div onClick={function () {
               infoAlert(1 , secondImg);
-            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group'>
+            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group w-2/3 md:w-full'>
                 <img className='md:w-full rounded-lg' src={secondImg} alt=""/>
                 <div className="layer text-8xl font-bold absolute top-0 right-0 left-0 bottom-0 bg-emerald-600 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-85 text-white duration-500 cursor-pointer">+</div>
             </div>
             <div onClick={function () {
               infoAlert(2 , thirdImg);
-            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group'>
+            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group w-2/3 md:w-full'>
                 <img className='md:w-full rounded-lg' src={thirdImg} alt=""/>
                 <div className="layer text-8xl font-bold absolute top-0 right-0 left-0 bottom-0 bg-emerald-600 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-85 text-white duration-500 cursor-pointer">+</div>
             </div>
             <div onClick={function () {
               infoAlert(3 , fourthImg);
-            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group'>
+            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group w-2/3 md:w-full'>
                 <img className='md:w-full rounded-lg' src={fourthImg} alt=""/>
                 <div className="layer text-8xl font-bold absolute top-0 right-0 left-0 bottom-0 bg-emerald-600 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-85 text-white duration-500 cursor-pointer">+</div>
             </div>
             <div onClick={function () {
               infoAlert(4 , fifthImg);
-            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group'>
+            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group w-2/3 md:w-full'>
                 <img className='md:w-full rounded-lg' src={fifthImg} alt=""/>
                 <div className="layer text-8xl font-bold absolute top-0 right-0 left-0 bottom-0 bg-emerald-600 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-85 text-white duration-500 cursor-pointer">+</div>
             </div>
             <div onClick={function () {
               infoAlert(5 , sixthImg);
-            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group'>
+            }} className='col-span-12 md:col-span-6 lg:col-span-4 rounded-lg relative group w-2/3 md:w-full'>
                 <img className='md:w-full rounded-lg' src={sixthImg} alt=""/>
                 <div className="layer text-8xl font-bold absolute top-0 right-0 left-0 bottom-0 bg-emerald-600 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-85 text-white duration-500 cursor-pointer">+</div>
             </div>
